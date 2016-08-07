@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Screenshot Delay Remover</string>
+    <string name="title_activity_main">Screenshot Delay Remover</string>
+    <string name="checkboxText">Hide app from launcher</string>
+    <string name="delayText">Delay:</string>
+    <string name="sourceButton">SOURCE</string>
+    <string name="supportButton">SUPPORT</string>
+    <string name="saveButton">SAVE</string>
+    <string name="delayValueText">%1$dms</string>
+</resources>
