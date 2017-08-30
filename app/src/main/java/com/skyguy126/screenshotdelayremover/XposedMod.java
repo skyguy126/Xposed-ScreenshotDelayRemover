@@ -21,10 +21,12 @@ public class XposedMod implements IXposedHookLoadPackage {
         if (!lpparam.packageName.equals("android"))
             return;
 
+        /*
         if (Build.VERSION.SDK_INT != Build.VERSION_CODES.M) {
             XposedBridge.log("[SDR] This module only works with Android 6.0.x");
             return;
         }
+        */
 
         try {
             XposedHelpers.findAndHookMethod("com.android.server.policy.PhoneWindowManager",
